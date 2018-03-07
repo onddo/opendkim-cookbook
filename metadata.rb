@@ -46,7 +46,7 @@ supports 'redhat'
 supports 'scientific'
 supports 'ubuntu'
 
-depends 'yum-epel', '~> 0.5'
+depends 'yum-epel', '>= 0.5', '<= 4.0'
 
 recipe 'opendkim::default', 'Installs and configures OpenDKIM.'
 
